@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #f06292; 
+    color: #fff;
+    border-radius: 25px;
+    margin: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+
+  .hero-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .nav-links {
+    margin-top: 1rem;
+  }
+
+  .love-letter,
+  .prayer-section {
+    background: #fff;
+    margin: 0 auto 2rem auto;
+    padding: 2rem;
+    max-width: 700px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .love-letter h2, .prayer-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .gallery-item {
+    background: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 320px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .gallery-item video {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+  }
+  
+
+  @media (max-width: 600px) {
+    .hero-section {
+      padding: 2rem 1rem;
+    }
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
